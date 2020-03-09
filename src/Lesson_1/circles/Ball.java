@@ -2,6 +2,7 @@ package Lesson_1.circles;
 
 import java.awt.*;
 
+
 public class Ball extends Sprite {
     private final Color color = new Color(
             (int) (Math.random() * 255),
@@ -44,4 +45,5 @@ public class Ball extends Sprite {
         g.fillOval((int) getLeft(), (int) getTop(),
                 (int) getWidth(), (int) getHeight());
     }
+
 }

@@ -17,7 +17,6 @@ public class BackGround extends Sprite {
         color = new Color(a,b,c);
     }
 
-
     @Override
     public void render(MainCanvas canvas, Graphics g) {
         canvas.setBackground(color);

@@ -44,11 +44,13 @@ public class MainCircles extends JFrame {
         render(canvas, g);
     }
 
+
     private void update(MainCanvas canvas, float deltaTime) {
         for (int i = 0; i < sprites.length; i++) {
             sprites[i].update(canvas, deltaTime);
         }
     }
+
 
     private void render(MainCanvas canvas, Graphics g) {
         for (int i = 0; i < sprites.length; i++) {

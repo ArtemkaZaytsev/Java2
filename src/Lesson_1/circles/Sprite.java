@@ -39,6 +39,7 @@ public abstract class Sprite {
         return 2f * halfHeight;
     }
 
+
     public void update(MainCanvas canvas, float deltaTime) {}
     public void render(MainCanvas canvas, Graphics g) {}
 
