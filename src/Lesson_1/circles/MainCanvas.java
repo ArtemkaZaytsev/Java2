@@ -29,7 +29,6 @@ public class MainCanvas extends JPanel {
         lastFrameTime = currentTime;
         repaint();
     }
-
     public int getLeft() { return 0; }
     public int getRight() { return getWidth() - 1; }
     public int getTop() { return 0; }

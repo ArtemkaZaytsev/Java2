@@ -30,7 +30,6 @@ public class MainCircles extends JFrame {
         add(canvas);
         setVisible(true);
     }
-
     private void initApplication() {
 
         for (int i = 0; i < sprites.length; i++) {

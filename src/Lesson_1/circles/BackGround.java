@@ -7,7 +7,6 @@ public class BackGround extends Sprite {
 
     private Color color;
 
-
     @Override
     public void update (MainCanvas canvas, float deltaTime){
         time += deltaTime;
