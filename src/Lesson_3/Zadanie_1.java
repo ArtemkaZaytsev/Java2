@@ -18,7 +18,6 @@ public class Zadanie_1 {
 
         public static void main(String[] args) {
 
-
             HashSet<String> setWords = new HashSet<>(); // здесь убираются дубликаты
             for (String a : words) {
                 setWords.add(a);
