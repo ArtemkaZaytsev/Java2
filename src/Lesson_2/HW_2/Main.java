@@ -1,5 +1,4 @@
 package Lesson_2.HW_2;
-
 import java.util.Arrays;
 
 public class Main {
@@ -22,7 +21,6 @@ public class Main {
             System.out.println(st);
             System.out.println("IncongruityArrayException: " + e.getMessage());// Если размер матрицы, полученной из строки, не равен 4x4;
         }
-
 
     }
     // метод, на вход которого подаётся строка, метод преобразует строку в двумерный массив типа String[][];
@@ -60,4 +58,3 @@ public class Main {
         return sumArr/2;
     }
 }
-
